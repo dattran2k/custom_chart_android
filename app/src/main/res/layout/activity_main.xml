@@ -20,7 +20,9 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-
+        <com.example.myapplication.CustomSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
         <com.example.myapplication.CustomNIBPResultView
             android:id="@+id/custom"
             android:layout_width="match_parent"
