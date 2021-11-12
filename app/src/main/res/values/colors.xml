@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F15656</color>
+    <color name="nibp_40_90">#3ECEC1</color>
+    <color name="nibp_90_120">#5DB945</color>
+    <color name="nibp_120_140">#FEB934</color>
+    <color name="nibp_140_160">#F36368</color>
+    <color name="nibp_160_180">#D83365</color>
+    <array name="arc_colors_default">
+        <item>#F15656</item>
+
+        <item>#FFBB86FC</item>
+
+        <item>#2CDA9B</item>
+
+        <item>#FF3700B3</item>
+
+        <item>#2CDA9B</item>
+    </array>
+    <array name="arc_colors_default2">
+        <item>#F15656</item>
+
+        <item>@color/white</item>
+
+        <item>@color/teal_200</item>
+
+        <item>@color/purple_200</item>
+
+        <item>#FF3700B3</item>
+    </array>
+    <array name="arc_colors_pr">
+        <item>#F15656</item>
+        <item>#FF03DAC5</item>
+        <item>#2CDA9B</item>
+        <item>#FFBB86FC</item>
+    </array>
+</resources>

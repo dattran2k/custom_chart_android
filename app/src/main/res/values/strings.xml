@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <array name="arc_step">
+        <item>20</item>
+        <item>40</item>
+        <item>70</item>
+        <item>90</item>
+    </array>
+    <array name="arc_string_temp">
+        <item>temp1</item>
+        <item>temp2</item>
+        <item>temp3</item>
+        <item>temp4</item>
+        <item>temp5</item>
+        <item>temp6</item>
+    </array>
+</resources>

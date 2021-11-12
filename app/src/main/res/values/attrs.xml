@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeRevealLayout">
+        <attr name="dragEdge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+
+        <attr name="mode_swipe">
+            <enum name="normal" value="0" />
+            <enum name="same_level" value="1" />
+        </attr>
+
+        <attr name="flingVelocity" format="integer" />
+
+        <attr name="minDistRequestDisallowParent" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DateEditText">
+        <attr name="dividerCharacter" format="enum">
+            <enum name="slash" value="0" />
+            <enum name="minus" value="1" />
+        </attr>
+
+
+        <attr name="dateFormat" format="enum">
+            <enum name="ddMMyyyy" value="0" />
+            <enum name="MMyy" value="1" />
+        </attr>
+
+        <attr name="maxDate" format="string" />
+        <attr name="minDate" format="string" />
+        <attr name="autoCorrect" format="boolean" />
+        <attr name="helperTextEnabled" format="boolean" />
+        <attr name="helperTextHighlightedColor" format="color" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="progressbarColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSeekBar">
+        <attr name="arc_custom_width" format="dimension|reference" />
+        <attr name="arc_custom_rotate_angle" format="float" />
+        <attr name="arc_custom_colors" format="reference" />
+        <attr name="arc_custom_step" format="reference" />
+        <attr name="arc_custom_string_upper" format="reference" />
+        <attr name="arc_custom_string_bottom" format="reference" />
+        <attr name="arc_custom_border_width" format="dimension|reference" />
+        <attr name="arc_custom_border_color" format="color|reference" />
+        <attr name="arc_custom_max" format="integer|reference" />
+        <attr name="arc_custom_min" format="integer|reference" />
+        <attr name="arc_custom_progress" format="integer|reference" />
+        <attr name="arc_custom_thumb_width" format="dimension|reference" />
+        <attr name="arc_custom_thumb_color" format="color|reference" />
+        <attr name="arc_custom_thumb_radius" format="dimension|reference" />
+        <attr name="arc_custom_thumb_shadow_radius" format="dimension|reference" />
+        <attr name="arc_custom_thumb_shadow_color" format="color|reference" />
+        <attr name="arc_custom_thumb_mode" format="integer|dimension">
+            <enum name="STROKE" value="0" />
+            <enum name="FILL" value="1" />
+            <enum name="FILL_STROKE" value="2" />
+        </attr>
+        <attr name="arc_custom_shadow_radius" format="dimension|reference" />
+    </declare-styleable>
+</resources>
